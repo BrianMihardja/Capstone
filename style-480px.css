@@ -1,0 +1,159 @@
+@media screen and (max-width: 480px) and (orientation: portrait) {
+
+
+/* Header */
+.logo-caption-480{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.logo-caption, .navbar{
+  display: none;
+}
+
+/* Main */
+.container{
+  display: block;
+}
+
+.bannerimage{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-image-width: 0;
+}
+
+.bannerimage img{
+  margin: 0;
+    border-image-width: 0;
+    margin: -2px 0;
+}
+
+.subcont{
+  width: 100%;
+  padding: 0;
+  background-color: rgb(220, 220, 220);
+  border: 0;
+}
+
+.inner-subcont h2{
+  font-weight: 500;
+}
+
+.button-start{
+  background-color: rgb(128, 128, 128);
+}
+
+/* Information */
+.image-full{
+  display: none;
+}
+
+.image-480{
+  display: block;
+}
+
+.column-1{
+  display: none;
+}
+
+.column-2{
+  display: block;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 16px;
+}
+
+.content{
+  margin: 0;
+}
+
+.subcontent-480{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  border: 0;
+
+}
+
+.subcontent-480 img{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.infocaption{
+  margin-top: 16px;
+}
+
+.campus, .guestlecture{
+  margin-top: 16px;
+}
+
+.guestlecture{
+  background-color: inherit;
+}
+
+/* Start Learning */
+.learning{
+  display: none;
+}
+
+.main-learning{
+  background-color: white;
+  padding: 0;
+}
+
+.learning-480{
+  display: block;
+  background-color: white;
+    border-top: 1px solid rgb(220, 220, 220);
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding-bottom: 32px;
+}
+
+.courses-480{
+  padding: 0 16px;
+}
+
+.courses-480 a{
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px;
+  background-color: rgb(220, 220, 220);
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* Thesis */
+.thesis-full{
+  display: none;
+}
+
+.thesis-left{
+  width: 100%;
+  padding: 0;
+}
+
+/* footer */
+footer{
+  border: 0;
+}
+
+footer h1{
+  font-size: 0.8rem;
+}
+
+.footer-container{
+  margin-top: 24px;
+}
+
+.terms-privacy{
+  display: none;
+}
+}
